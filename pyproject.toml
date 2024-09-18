@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "proyecto01"
+version = "0.0.1"
+description = "Paquetes Estadistica 2024"
+authors = ["DanielQR"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+numpy = "^2.1.1"
+seaborn = "^0.13.2"
+matplotlib = "^3.9.2"
+scikit-learn = "^1.5.2"
+statsmodels = "^0.14.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
